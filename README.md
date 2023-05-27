@@ -1,58 +1,64 @@
 # Regex-Tutorial
-Your Challenge this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. You'll use the template provided in the starter code to create your tutorial.
 
-User Story
-AS A web development student
-I WANT a tutorial explaining a specific regex
-SO THAT I can understand the search pattern the regex defines
-Acceptance Criteria
-GIVEN a regex tutorial
-WHEN I open the tutorial
-THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
-WHEN I click on the links in the table of contents
-THEN I am taken to the corresponding sections of the tutorial
-WHEN I read through each section of the tutorial
-THEN I find a detailed explanation of what a specific component of the regex does
-WHEN I reach the end of the tutorial
-THEN I find a section about the author and a link to the author’s GitHub profile
-What Is a Regex?
-A regex, which is short for regular expression, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
 
-For example, the following regular expression can be used to verify that user input is a valid email address:
+The objective of the project was to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does.
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-Each component of this regex has a unique responsibility to make sure that a user enters an email address that begins with an unspecified number of characters preceding the @ symbol, followed by a domain.
+## Table of Contents
 
-Before you get started, watch this introduction to regular expressions videoLinks to an external site. and read Regex Tutorial: Matching a UsernameLinks to an external site. to learn how to identify the different components that make up a regex. If you need any additional help, there are many resources on the web. Feel free to do your own research to find one that can help you complete this assignment.
+* [Description](#Description)
+* [Technologies](#installation)
+* [Preview](#preview)
+* [Links](#links)
+* [License](#license)
 
-Once you have a better understanding of what these different parts of a regular expression do, you’ll need to explain what they do for a specific regex.
+## Description 
+The tutorial subject is Matching an Email with Regular Expressions.
 
-You can choose one of the following regular expressions or you can choose one that you found on your own (with the exception of the one that is covered in the Regex Tutorial: Matching a UsernameLinks to an external site.:
+When users open the tutorial, they find:
+-  Descriptive title
+-  Introductory paragraph explaining the purpose of the tutorial
+- Summary describing the regex featured in the tutorial
+- Table of contents linking to different sections that break down each component of the regex and explain what it does
+- About the author section with a link to the author’s GitHub profile.
 
-Matching a Hex Value – /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+When user clicks on the links in the table of contents, they are taken to the corresponding sections of the tutorial.
 
-Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Each section of the tutorial includes a detailed explanation of what a specific component of the regex does.
 
-Matching a URL – /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+At the end of the tutorial, a section about the author and a link to the author’s GitHub profile is included.
 
-Matching an HTML Tag – /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
 
-Getting Started
-Instead of creating a repository, you’ll publish a GitHub gist. GitHub describes a gist as a simple way to share code snippets with others. It’s also an ideal way to demonstrate a technique, teach a principle, or show off a solution. It functions just like a repository, and you’ll use Markdown to create it, just as you do with your READMEs. Gists can include code, images, links, and anything else you can include in a README.
+## Technologies
+- VS Code
+- Github Gist
 
-After you’ve cloned the starter code, learn how to create a gistLinks to an external site.. You can also watch this video on how to use gistsLinks to an external site..
+## Preview
+The following images show the appearance and functionality of the tutorial:
+![Deployed gist](/image1.png)
 
-IMPORTANT
-Make sure to create a public gist and add the .md file extension to the file name so that your Markdown renders correctly.
+## [Links](#links)
+[GitHub Gist link ](https://gist.github.com/elliechayo/1fca0d4587436124f6f7e6312d4d5bff)
 
-The starter code is a template with a title, introductory paragraph, summary, and table of contents. The table of contents should link to sections of the tutorial that describe the functionality of each component in the regex. Be sure to rename the template to a unique name that describes your tutorial.
+* [License](#license)
+MIT License
 
-NOTE
-The regular expression that you choose may not include all of the components outlined in the starter code. After you’ve finished your tutorial, you can remove any sections that you didn’t use.
+Copyright (c) 2023 Elinor Chayo
 
-Each section that describes a component should include more than just one sentence explaining what it does. It should also include a code snippet of that particular component and some examples that meet the requirements of that component.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-IMPORTANT
-Make revisions to your gist in the GitHub gist UI. This will create a revision history that graders can use to verify that the tutorial content is yours.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

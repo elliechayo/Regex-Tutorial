@@ -38,7 +38,7 @@ The following images show the appearance and functionality of the tutorial:
 ![Deployed gist](/image1.png)
 
 ## [Links](#links)
-[GitHub Gist link ](https://gist.github.com/elliechayo/7b65d94eb8436a542d7f4686e3e8f3c6)
+[GitHub Gist link ](https://gist.github.com/elliechayo/78fdb0e8506ef6cc7cce24bc33085902)
 
 * [License](#license)
 MIT License
